@@ -4,15 +4,15 @@ block content
   h1 Update scoreboard
     div.update__scoreboard
       form.update__form
-        label(class="character") Character
-        select(name="character") Mario Kart character
-          option(value="Mario") Mario 👲
-          option(value="Luigi") Luigi 👨‍🔧
-          option(value="Princess Peach") Princess Peach 💃
-          option(value="Yoshi") Yoshi 🦖
-          option(value="Donkey Kong Jr.") Donkey Kong Jr. 🦍
-          option(value="Koopa Troopa") Koopa Troopa 🐢
-          option(value="Toad") Toad 🍄
+        label(class="character") Mario Kart character
+        select(name="character" id="character" class="select__character") Mario Kart character
+          option(value="m") Mario 👲
+          option(value="l") Luigi 👨‍🔧
+          option(value="pp") Princess Peach 💃
+          option(value="y") Yoshi 🦖
+          option(value="dk") Donkey Kong Jr. 🦍
+          option(value="kt") Koopa Troopa 🐢
+          option(value="t") Toad 🍄
         label(for="score" class="score") Score
         input(type="text" name="score" class="score__input")
         input(type="submit" value="Update scoreboard")
