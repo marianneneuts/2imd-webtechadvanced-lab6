@@ -8,9 +8,9 @@ let go = (server) => {
     primus.on('connection', (spark) => {
         console.log("✨");
 
-        /* spark.on('data', (data) => {
+        spark.on('data', (data) => {
             primus.write(data);
-        }); */
+        });
     });
 };
 
