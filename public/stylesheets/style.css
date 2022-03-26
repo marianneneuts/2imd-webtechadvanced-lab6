@@ -6,3 +6,90 @@ body {
 a {
   color: #00B7FF;
 }
+
+.update__scoreboard {
+  margin-top: 1em;
+  background-color: seashell;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.character {
+  font-size: 16px;
+  font-weight: normal;
+  margin: .5em;
+}
+
+.score {
+  font-size: 16px;
+  font-weight: normal;
+  margin: .5em;
+}
+
+.score__input {
+  width: 50px;
+  margin-right: .5em;
+}
+
+.update__form {
+  padding: 1.5em;
+}
+
+.scoreboard {
+  margin-top: 1em;
+  font-size: 16px;
+  background-color: seashell;
+}
+
+.table__scoreboard {
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: normal;
+}
+
+.table__scoreboard td, .table__scoreboard th {
+  padding: 8px;
+}
+
+.table__scoreboard td.mario:hover {
+  background-color: #e50014;
+  color: white;
+}
+
+.table__scoreboard td.luigi:hover {
+  background-color: #00a53c;
+  color: white;
+}
+
+.table__scoreboard td.peach:hover {
+  background-color: #f29ac0;
+  color: white;
+}
+
+.table__scoreboard td.yoshi:hover {
+  background-color: #70be44;
+  color: white;
+}
+
+.table__scoreboard td.donkey:hover {
+  background-color: #914c2b;
+  color: white;
+}
+
+.table__scoreboard td.koopa:hover {
+  background-color: #fdd100;
+  color: white;
+}
+
+.table__scoreboard td.toad:hover {
+  background-color: #e50112;
+  color: white;
+}
+
+.table__scoreboard th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
