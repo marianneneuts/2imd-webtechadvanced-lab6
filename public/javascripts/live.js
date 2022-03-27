@@ -11,7 +11,7 @@ primus.on("data", data => {
     console.log(data);
 
     let character = "." + data.charactername;
-    let score = data.score;
+    let score = data.score + " 🪙";
 
     console.log(character);
     console.log(score)

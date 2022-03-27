@@ -1,15 +1,17 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  background-image: url("https://images5.alphacoders.com/486/thumb-1920-486998.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-a {
-  color: #00B7FF;
 }
 
 .update__scoreboard {
   margin-top: 1em;
   background-color: seashell;
+  opacity: 0.9;
   border-radius: 6px;
   text-align: center;
 }
@@ -45,6 +47,7 @@ a {
   margin-top: 1em;
   font-size: 16px;
   background-color: seashell;
+  opacity: 0.9;
 }
 
 .table__scoreboard {
