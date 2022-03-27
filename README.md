@@ -1,1 +1,1 @@
-# 2imd-webtechadvanced-lab6
+# Lab 6 - Mario Kart score app ⭐
